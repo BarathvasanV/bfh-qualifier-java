@@ -1,0 +1,27 @@
+spring:
+datasource:
+url: jdbc:h2:mem:bfhdb;DB_CLOSE_DELAY=-1
+driverClassName: org.h2.Driver
+username: sa
+password: ""
+jpa:
+hibernate:
+ddl-auto: update
+show-sql: true
+properties:
+hibernate.format_sql: true
+
+
+bfh:
+generate-url: "https://bfhldevapigw.healthrx.co.in/hiring/generateWebhook/JAVA"
+applicant:
+name: "John Doe" # <-- CHANGE ME IF REQUIRED
+regNo: "22BLC1209" # <-- YOUR REG NO
+email: "john@example.com" # <-- CHANGE ME IF REQUIRED
+sql:
+q1: "classpath:sql/q1.sql"
+q2: "classpath:sql/q2.sql"
+logging:
+level:
+root: INFO
+com.example.bfh: DEBUG
