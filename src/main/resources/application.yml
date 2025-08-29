@@ -15,9 +15,9 @@ hibernate.format_sql: true
 bfh:
 generate-url: "https://bfhldevapigw.healthrx.co.in/hiring/generateWebhook/JAVA"
 applicant:
-name: "John Doe" # <-- CHANGE ME IF REQUIRED
-regNo: "22BLC1209" # <-- YOUR REG NO
-email: "john@example.com" # <-- CHANGE ME IF REQUIRED
+name: "Barathvasan V" 
+regNo: "22BLC1209" 
+email: "barathvasanv@gmail.com" 
 sql:
 q1: "classpath:sql/q1.sql"
 q2: "classpath:sql/q2.sql"
